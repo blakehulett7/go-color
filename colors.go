@@ -22,5 +22,5 @@ const BrightWhite = "\033[97m"
 const BrightYellow = "\033[93m"
 
 func ColorPrint(color, message string) {
-	fmt.Printf("%s%s%s\n", color, message, ResetColor)
+	fmt.Println(color + message + ResetColor)
 }
